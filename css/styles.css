@@ -123,7 +123,7 @@ margin-right: 50px;
     padding-top: 32px;
  }
 
- .link-header.link {
+ .link-header .link {
     display: block;
     padding-bottom: 32px;
     padding-top: 32px;
@@ -143,15 +143,11 @@ margin-right: 50px;
 
 .list-email {
     margin-left: auto;
-    /*background-color: aquamarine;*/
+     /*background-color: aquamarine;*/
 }
 
-/*.header.list .item-header + .item-header {
-    margin-left: 50px;
-}*/
-
 .email-telefone {
-    display: block;
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -160,7 +156,13 @@ margin-right: 50px;
     padding-bottom: 32px;
     padding-top: 32px;
     align-items: center;
+    text-decoration: none;
     }
+    
+
+/*.item-email {
+     align-items: center;}*/
+ 
      
 .list-email .item-email:not(:last-child) {
   margin-right: 50px;
@@ -169,10 +171,7 @@ margin-right: 50px;
 .contacts-icon {
     margin-right: 10px;
     fill: currentColor;
-    margin-bottom: 0;
-    margin-bottom: 0;
-
-    }
+ }
 
 /*Шапка*/
 
@@ -231,7 +230,7 @@ margin-right: 50px;
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer; 
-    border-radius: 5px;
+    border-radius: 4px;
     border: 1px;
     padding: 10px 32px;
     margin-top: 30px;
@@ -239,8 +238,10 @@ margin-right: 50px;
 
 .button:hover, 
 .button:focus {
-      background: #ffffff;
-      color: #000000;
+      background-color: #188CE8;
+      color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
 }
 
 /*Особенности*/
@@ -263,15 +264,25 @@ margin-right: 50px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-top : 10px;
-   
+    margin-top : 10px;  
 }
 
 .specific-subtitle {
     width: 270px;
     align-items: center;
-
 }
+
+.specific-icon {
+  display: flex;
+  width: auto;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
 /*Чем мы занимаемся*/
 
 .list.specific-list .item {
