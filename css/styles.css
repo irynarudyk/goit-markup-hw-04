@@ -131,7 +131,7 @@ body {
 .adress:hover,
 .adress:focus,
 .mail-tel:hover,
-.mail-tel:focus{
+.mail-tel:focus {
     color: #2196F3;
 }
 
@@ -360,6 +360,8 @@ body {
     letter-spacing: 0.03em;
 }
 
+/*--Социальные иконки--*/
+
 .social {
     justify-content: center;
     align-items: center;
@@ -367,9 +369,8 @@ body {
 }
 
 .social-team {
-    
-    justify-content: center;
-    align-items: center;
+   justify-content: center;
+   align-items: center;
 }
 
 .social .social-team + .social-team {
@@ -381,10 +382,20 @@ body {
      align-items: center;
      justify-content: center;
      width: 44px;
-     height: 44px;
-     background-color: #ffffff;
+     height:44px;
+     background-color: #FFFFFF;
      border-radius: 50%;
  }
+
+.social-link:hover,
+.social-link:focus {
+    background-color: #2196F3;
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+    fill: #FFFFFF;
+}
 
 .social-icon {
     fill: #afb1b8;
