@@ -451,9 +451,6 @@ margin-bottom: 50px;
     margin-left: 30px;
 }
 
-
-
-
 /*footer*/
 .footer {
     background: #2F303A;
@@ -495,6 +492,48 @@ list-style: none;
 .mail-tel {
     color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+
+.footer-cosial {
+    margin-left: 70px;
+
+}
+
+.footer-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    
+}
+
+.footer-link {
+    fill: #FFFFFF;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    align-items: center;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+    background-color: #2196f3;
+}
+
 /*Портфолио*/
 
 .navigation {
