@@ -401,6 +401,59 @@ body {
     fill: #afb1b8;
 }
 
+/* Наши клиенты*/
+
+.regular-clients {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 50px;
+}
+
+.clients {
+   padding-bottom: 94px;
+   padding-top: 94px;
+}
+
+.list-client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.link-client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.link-client:hover {
+    border: 1px solid #2196F3;
+}
+
+.link-client:hover .icon-client,
+.link-client:focus .icon-client {
+    fill: #2196F3;
+}
+
+.icon-client {
+    fill: #AFB1B8;
+}
+
+.list .list-client + .list-client {
+    margin-left: 30px;
+}
+
+
+
+
 /*footer*/
 .footer {
     background: #2F303A;
